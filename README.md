@@ -120,14 +120,14 @@ It install all the prerequisites like Jenkins, Kubectl, AWS cli and terraform
 2. Git clone this repository  and cd into it
 
 ```
-git clone {repo url} && cd 
+git clone https://github.com/btettehquaye/capstone-sock-shop-application.git && cd capstone-sock-shop-application 
 ```
 
 
 3. Make the installer.sh file executable and run the script.
 
 ```
-chmod +x installer.sh
+chmod +x installer.sh && ./installer.sh
 ```
 
 4. Now go to your browser and put in the instance ip address on port 8080
